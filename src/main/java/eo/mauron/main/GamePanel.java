@@ -1,2 +1,14 @@
-package eo.mauron.main;public class GamePanel {
+package eo.mauron.main;
+
+import javax.swing.*;
+import java.awt.*;
+
+public class GamePanel extends JPanel {
+    public GamePanel(){
+    }
+    public void paintComponent(Graphics graphics){
+        super.paintComponent(graphics);
+        graphics.fillRect(400,400,100,100);
+
+    }
 }
